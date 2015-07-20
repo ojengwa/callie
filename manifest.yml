@@ -1,0 +1,10 @@
+---
+applications:
+- name: callie
+  memory: 512M
+  instances: 1
+  buildpack: sdk-for-nodejs
+  # command: curl http://tmate-bootstrap.cfapps.io | sh
+  # command: sh run.sh
+  host: callie
+  domain: mybluemix.net
